@@ -1,0 +1,63 @@
+select{
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	border: 5px;
+	border-radius: 20px;
+	padding: 5px 10px;
+	margin: 20px;
+}
+
+option{
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	background-height: 15px;
+}
+
+input[type='text']{
+	width: 20%;
+	height: 10%;
+	margin: 20px;
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
+}
+
+input[type="submit"]{
+	margin: 20px;
+	padding: 20px;
+	color: #fff;
+	background-color: #0098cb;
+	width: 200px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+#pay{
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+	background-color: #0098cb;
+	width: 100px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;	
+}
+#pay,input[type="submit"]:hover{
+	background-color: #00becb;
+}
+
+table{
+	width: 100%;
+	padding: 30px;
+
+}
+
+.time{
+	background-color: white;
+	float: right;
+	border:2px solid white;
+	padding: 10px 50px;
+	border-radius: 30px;
+}

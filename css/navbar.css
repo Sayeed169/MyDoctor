@@ -1,0 +1,97 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	background-color: #CFD8DC;
+}
+
+div.navpadding{
+	padding: 40px;
+}
+
+.propic img, .dropbtn img{
+	float: right;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+}
+
+/*
+*Navigation bar CSS
+*/
+a{
+	text-decoration: none;
+}
+
+ul.topnav{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: top;
+	background-color: #00897B;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+ul.topnav li.nav{
+	float: left;
+}
+
+ul.topnav #log, #reg, .dropdown{
+	float: right;
+	margin-right: 20px;
+}
+
+ul.topnav li.nav a, .dropbtn{
+	padding: 16px 20px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+ul.topnav li.nav a:hover, .dropdown:hover .dropbtn{
+	background-color: #424242;
+}
+
+ul.topnav li.nav a.active{
+	background-color: #212121;
+}
+
+@media screen and (max-width: 600px){
+	li.propic a img{float: none;}
+	ul.topnav li.nav{float: none;}
+	li.dropdown a.dropbtn{float: none;}
+}
+
+/*
+*Dropdown CSS
+*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+	font-size: 16;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #d2d2d2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

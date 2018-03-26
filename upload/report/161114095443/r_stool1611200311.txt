@@ -1,0 +1,4 @@
+Color : black ref:[ Brown ]
+Consistency : Very good ref:[ Semi-solid ]
+Blood : ak gada ref:[ Nil ]
+Mucus : olpo ref:[ (+) ]
